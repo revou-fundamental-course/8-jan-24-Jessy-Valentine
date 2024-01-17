@@ -8,12 +8,61 @@
 </head>
 <body>
     <header>
-        <h1 class = "judul">Katik : Kalkulator Matematik</h1>
+        <h1 class = "judul">KATIK : Kalkulator Matematik</h1>
         <h2 class = "judul">Luas dan Keliling Persegi</h2>
         <p class = "sub">Welcome to kalkulator Luas dan Keliling Persegi! Web ini digunakan untuk menghitung Luas dan Keliling Persegi</p>
+        <hr class ="garis">
+        <hr class="tengah">
+        <hr class = "garis">
     </header>
-    <hr>
-    <div></div>
-    <hr>
+    <div class="container">
+        <div class="kotak1">
+            <h2 class="nama">Luas Persegi</h2>
+            <img src = "Persegi.png">
+            <br>
+            <p class="tulisan">Rumus Luas Persegi :</p>
+            <p class="rumus">L = S x S</p>
+            <p class="tulisan">Keterangan :
+                <br>L = Luas
+                <br>S = Sisi
+            </p>    
+            <hr class="batas">        
+            <h2 class ="textBawah">Hitung Luas Persegi</h2>
+            <form id="form1">
+                <input id="sisi1" type="number"><br>
+            </form>
+            <div class="buttonContainer">
+                <button class = "tombol1" id="luas">Hitung</button>
+                <button class = "tombol2" id="resetLuas">Reset</button>
+            </div>
+                <p class= "tulisan" id="hasilLuas"></p>
+                <p class= "tulisan" id="hasilLuas1"></p>
+                <p class= "tulisan" id="hasilLuas2"></p>
+        </div>
+        <div class="kotak2">
+            <h2 class="nama">Keliling Persegi</h2>
+            <img src = "Persegi.png">
+            <br>
+            <p class="tulisan">Rumus Keliling Persegi :</p>
+            <p class="rumus">K = 4 x S</p>
+            <p class="tulisan">Keterangan :
+                <br>K = Keliling
+                <br>S = Sisi
+            </p> 
+            <hr class="batas">    
+            <h2 class ="textBawah">Hitung Keliling Persegi</h2>
+            <form id="form2">
+                <input id="sisi2" type="number"><br>
+            </form>
+            <div class="buttonContainer">
+                <button class = "tombol1" id="keliling">Hitung</button>
+                <button class = "tombol2" id="resetKeliling">Reset</button>
+            </div>
+                <p class="tulisan" id="hasilKeliling"></p>
+                <p class="tulisan" id="hasilKeliling1"></p>
+                <p class="tulisan" id="hasilKeliling2"></p>
+        </div>
+    </div>
+    <script src="js/script.js"></script>
 </body>
 </html> 
