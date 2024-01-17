@@ -99,7 +99,7 @@ input {
     box-shadow: 0 3px #666;
 }
 
-.tombol1:hover {background-color: #95AF6F}
+.tombol1:hover {background-color: #8ba563}
 
 .tombol1:active {
   background-color: #819b5a;
@@ -116,7 +116,7 @@ input {
     box-shadow: 0 3px #666;
 }
 
-.tombol2:hover {background-color: #c8a65a}
+.tombol2:hover {background-color: #b99953}
 
 .tombol2:active {
   background-color: #b1914c;
