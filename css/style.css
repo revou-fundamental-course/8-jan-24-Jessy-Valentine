@@ -1,3 +1,27 @@
-.red {
-    background-color: blueviolet;
+body {
+    background: radial-gradient(circle,#A64441,#722C2A);
+}
+
+header{
+    text-align : center;
+}
+
+.judul {
+    color : white;
+    text-shadow : 3px 3px black;
+}
+
+.sub {
+    color : #FFBFB7;
+    text-shadow : 2px 2px black;
+}
+
+
+div {
+    background-color: #DBBBBB;
+    padding: 5px 5px 
+}
+
+hr{
+    color: #DBBBBB;
 }
